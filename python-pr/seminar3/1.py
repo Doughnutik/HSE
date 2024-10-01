@@ -54,17 +54,31 @@ def call_func(a: float, b: int) -> int:
     return int(a + b)
 
 
-c: Callable[[float, int], int] = call_func(1.1, 5)  #TODO !!!!!
+c: Callable[[float, int], int] = call_func  #TODO !!!!!
 
 
 
 mylist: List[int | str] = [1, "aboba", None]
 
 
-from typing import Generic, TypeVar
+from typing import Generic, TypeVar, cast
 
 T = TypeVar('T')
 
 def reverse(x: List[T]) -> List[T]:
     return x[::-1]
 
+
+class get_something(t.Generic[T]):
+    
+    
+    def __new__(
+        cls,
+        v: str
+    ):
+        generated_instance = super().__new__(cls)
+        return generated_instance.execute(v)
+    
+    def execute(self, v: str) -> T:
+        ...
+        return cast(T, v)
