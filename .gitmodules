@@ -1,3 +1,6 @@
 [submodule "1-python-Doughnutik"]
 	path = 1-python-Doughnutik
 	url = https://github.com/central-university-dev/1-python-Doughnutik
+[submodule "project-seminar/Cook4You"]
+	path = project-seminar/Cook4You
+	url = https://github.com/Doughnutik/Cook4You
