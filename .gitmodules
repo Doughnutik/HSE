@@ -4,3 +4,6 @@
 [submodule "project-seminar/Cook4You"]
 	path = project-seminar/Cook4You
 	url = https://github.com/Doughnutik/Cook4You
+[submodule "MTS_GO"]
+	path = MTS_GO
+	url = https://github.com/Doughnutik/MTS_GO
