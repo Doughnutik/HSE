@@ -7,3 +7,6 @@
 [submodule "MTS_GO"]
 	path = MTS_GO
 	url = https://github.com/Doughnutik/MTS_GO
+[submodule "2-python-Doughnutik"]
+	path = 2-python-Doughnutik
+	url = https://github.com/central-university-dev/2-python-Doughnutik
