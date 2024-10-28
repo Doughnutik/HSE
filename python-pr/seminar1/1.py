@@ -19,7 +19,6 @@ class A:
 a = A()
 print(a._protected_number) # печально, что можно вызвать protected поле
 
-
 class SuperAnimal:
     hands = 0
     def __init__(self, x):
